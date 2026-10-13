@@ -1,0 +1,1587 @@
+[
+  {
+    "name": "Cheetah F-10",
+    "chassis": "Cheetah",
+    "model": "F-10",
+    "year": 2630,
+    "mass": 25,
+    "thrust": 12,
+    "sinks": 2,
+    "tmm": 5,
+    "armor": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "structure": 4,
+    "dthr": 1,
+    "bomb": 1,
+    "ev": 448,
+    "cv": 1669463,
+    "upkeep": 500,
+    "role": "Interceptor",
+    "mul": "571",
+    "source": "data/mekfiles/fighters/TRO3039u/Cheetah F-10.blk",
+    "tics": [
+      {
+        "weapon": "Small Laser",
+        "mounts": [
+          "N"
+        ],
+        "id": 1,
+        "damage": "1",
+        "base": 1,
+        "max": 1,
+        "heat": 0,
+        "range": [
+          0,
+          0,
+          null,
+          null,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "LW",
+          "RW"
+        ],
+        "id": 2,
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "LW/RW"
+      }
+    ],
+    "ammo": [],
+    "filename": "IRONBOUND-Cheetah-F-10.svg"
+  },
+  {
+    "name": "Chippewa CHP-W5",
+    "chassis": "Chippewa",
+    "model": "CHP-W5",
+    "year": 2584,
+    "mass": 90,
+    "thrust": 5,
+    "sinks": 5,
+    "tmm": 3,
+    "armor": [
+      11,
+      6,
+      6,
+      7
+    ],
+    "structure": 3,
+    "dthr": 3,
+    "bomb": 3,
+    "ev": 1520,
+    "cv": 5410530,
+    "upkeep": 1800,
+    "role": "Attack Fighter",
+    "mul": "584",
+    "source": "data/mekfiles/fighters/TRO3039u/Chippewa CHP-W5.blk",
+    "tics": [
+      {
+        "weapon": "LRM 15",
+        "mounts": [
+          "N",
+          "N"
+        ],
+        "id": 1,
+        "damage": "2+M8 (Max 10)",
+        "base": 2,
+        "max": 10,
+        "heat": 2,
+        "range": [
+          4,
+          2,
+          0,
+          2,
+          4
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "SRM 6",
+        "mounts": [
+          "N"
+        ],
+        "id": 2,
+        "damage": "1+M3 (Max 4)",
+        "base": 1,
+        "max": 4,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "N",
+          "N"
+        ],
+        "id": 3,
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "LW"
+        ],
+        "id": 4,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "LW"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "LW"
+        ],
+        "id": 5,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "LW"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "RW"
+        ],
+        "id": 6,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "RW"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "RW"
+        ],
+        "id": 7,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "RW"
+      },
+      {
+        "weapon": "Small Laser",
+        "mounts": [
+          "A",
+          "A"
+        ],
+        "id": 8,
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "heat": 0,
+        "range": [
+          0,
+          0,
+          null,
+          null,
+          null
+        ],
+        "loc": "A"
+      }
+    ],
+    "ammo": [
+      {
+        "weapon": "LRM 15",
+        "tics": [
+          1
+        ],
+        "shots": 8,
+        "location": "F"
+      },
+      {
+        "weapon": "LRM 15",
+        "tics": [
+          1
+        ],
+        "shots": 8,
+        "location": "F"
+      },
+      {
+        "weapon": "LRM 15",
+        "tics": [
+          1
+        ],
+        "shots": 8,
+        "location": "F"
+      },
+      {
+        "weapon": "LRM 15",
+        "tics": [
+          1
+        ],
+        "shots": 8,
+        "location": "F"
+      },
+      {
+        "weapon": "SRM 6",
+        "tics": [
+          2
+        ],
+        "shots": 15,
+        "location": "F"
+      }
+    ],
+    "filename": "IRONBOUND-Chippewa-CHP-W5.svg"
+  },
+  {
+    "name": "Corsair CSR-V12",
+    "chassis": "Corsair",
+    "model": "CSR-V12",
+    "year": 2779,
+    "mass": 50,
+    "thrust": 6,
+    "sinks": 3,
+    "tmm": 3,
+    "armor": [
+      18,
+      13,
+      13,
+      11
+    ],
+    "structure": 2,
+    "dthr": 6,
+    "bomb": 2,
+    "ev": 1190,
+    "cv": 2293958,
+    "upkeep": 1000,
+    "role": "Dogfighter",
+    "mul": "693",
+    "source": "data/mekfiles/fighters/TRO3039u/Corsair CSR-V12.blk",
+    "tics": [
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "N"
+        ],
+        "id": 1,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "N"
+        ],
+        "id": 2,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Small Laser",
+        "mounts": [
+          "N",
+          "N"
+        ],
+        "id": 3,
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "heat": 0,
+        "range": [
+          0,
+          0,
+          null,
+          null,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "LW",
+          "RW"
+        ],
+        "id": 4,
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "LW/RW"
+      },
+      {
+        "weapon": "Small Laser",
+        "mounts": [
+          "A",
+          "A"
+        ],
+        "id": 5,
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "heat": 0,
+        "range": [
+          0,
+          0,
+          null,
+          null,
+          null
+        ],
+        "loc": "A"
+      }
+    ],
+    "ammo": [],
+    "filename": "IRONBOUND-Corsair-CSR-V12.svg"
+  },
+  {
+    "name": "Lucifer LCF-R15",
+    "chassis": "Lucifer",
+    "model": "LCF-R15",
+    "year": 2526,
+    "mass": 65,
+    "thrust": 5,
+    "sinks": 4,
+    "tmm": 3,
+    "armor": [
+      16,
+      10,
+      10,
+      9
+    ],
+    "structure": 2,
+    "dthr": 5,
+    "bomb": 2,
+    "ev": 1329,
+    "cv": 3162311,
+    "upkeep": 1300,
+    "role": "Attack Fighter",
+    "mul": "1954",
+    "source": "data/mekfiles/fighters/TRO3039u/Lucifer LCF-R15.blk",
+    "tics": [
+      {
+        "weapon": "LRM 20",
+        "mounts": [
+          "N"
+        ],
+        "id": 1,
+        "damage": "1+M6 (Max 7)",
+        "base": 1,
+        "max": 7,
+        "heat": 1,
+        "range": [
+          4,
+          2,
+          0,
+          2,
+          4
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "N"
+        ],
+        "id": 2,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "N"
+        ],
+        "id": 3,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Small Laser",
+        "mounts": [
+          "LW",
+          "LW"
+        ],
+        "id": 4,
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "heat": 0,
+        "range": [
+          0,
+          0,
+          null,
+          null,
+          null
+        ],
+        "loc": "LW"
+      },
+      {
+        "weapon": "Small Laser",
+        "mounts": [
+          "RW",
+          "RW"
+        ],
+        "id": 5,
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "heat": 0,
+        "range": [
+          0,
+          0,
+          null,
+          null,
+          null
+        ],
+        "loc": "RW"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "A"
+        ],
+        "id": 6,
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "A"
+      }
+    ],
+    "ammo": [
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          1
+        ],
+        "shots": 6,
+        "location": "F"
+      },
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          1
+        ],
+        "shots": 6,
+        "location": "F"
+      },
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          1
+        ],
+        "shots": 6,
+        "location": "F"
+      },
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          1
+        ],
+        "shots": 6,
+        "location": "F"
+      },
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          1
+        ],
+        "shots": 6,
+        "location": "F"
+      }
+    ],
+    "filename": "IRONBOUND-Lucifer-LCF-R15.svg"
+  },
+  {
+    "name": "Seydlitz SYD-21",
+    "chassis": "Seydlitz",
+    "model": "SYD-21",
+    "year": 2504,
+    "mass": 20,
+    "thrust": 11,
+    "sinks": 2,
+    "tmm": 5,
+    "armor": [
+      3,
+      2,
+      2,
+      3
+    ],
+    "structure": 4,
+    "dthr": 1,
+    "bomb": 1,
+    "ev": 440,
+    "cv": 1370380,
+    "upkeep": 400,
+    "role": "Interceptor",
+    "mul": "2878",
+    "source": "data/mekfiles/fighters/TRO3039u/Seydlitz SYD-21.blk",
+    "tics": [
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "N"
+        ],
+        "id": 1,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "N"
+      }
+    ],
+    "ammo": [],
+    "filename": "IRONBOUND-Seydlitz-SYD-21.svg"
+  },
+  {
+    "name": "Shilone SL-17",
+    "chassis": "Shilone",
+    "model": "SL-17",
+    "year": 2796,
+    "mass": 65,
+    "thrust": 6,
+    "sinks": 4,
+    "tmm": 3,
+    "armor": [
+      15,
+      11,
+      11,
+      9
+    ],
+    "structure": 2,
+    "dthr": 5,
+    "bomb": 2,
+    "ev": 1230,
+    "cv": 3399045,
+    "upkeep": 1300,
+    "role": "Fire Support",
+    "mul": "2923",
+    "source": "data/mekfiles/fighters/TRO3039u/Shilone SL-17.blk",
+    "tics": [
+      {
+        "weapon": "LRM 20",
+        "mounts": [
+          "N"
+        ],
+        "id": 1,
+        "damage": "1+M6 (Max 7)",
+        "base": 1,
+        "max": 7,
+        "heat": 1,
+        "range": [
+          4,
+          2,
+          0,
+          2,
+          4
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "N"
+        ],
+        "id": 2,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "LW",
+          "RW"
+        ],
+        "id": 3,
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "LW/RW"
+      },
+      {
+        "weapon": "SRM 4",
+        "mounts": [
+          "A"
+        ],
+        "id": 4,
+        "damage": "1+M2 (Max 3)",
+        "base": 1,
+        "max": 3,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "A"
+      }
+    ],
+    "ammo": [
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          1
+        ],
+        "shots": 6,
+        "location": "F"
+      },
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          1
+        ],
+        "shots": 6,
+        "location": "F"
+      },
+      {
+        "weapon": "SRM 4",
+        "tics": [
+          4
+        ],
+        "shots": 25,
+        "location": "F"
+      }
+    ],
+    "filename": "IRONBOUND-Shilone-SL-17.svg"
+  },
+  {
+    "name": "Sholagar SL-21",
+    "chassis": "Sholagar",
+    "model": "SL-21",
+    "year": 2803,
+    "mass": 35,
+    "thrust": 10,
+    "sinks": 2,
+    "tmm": 5,
+    "armor": [
+      8,
+      6,
+      6,
+      5
+    ],
+    "structure": 3,
+    "dthr": 2,
+    "bomb": 1,
+    "ev": 607,
+    "cv": 2052353,
+    "upkeep": 700,
+    "role": "Interceptor",
+    "mul": "2935",
+    "source": "data/mekfiles/fighters/TRO3039u/Sholagar SL-21.blk",
+    "tics": [
+      {
+        "weapon": "SRM 4",
+        "mounts": [
+          "N"
+        ],
+        "id": 1,
+        "damage": "1+M2 (Max 3)",
+        "base": 1,
+        "max": 3,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "LW",
+          "RW"
+        ],
+        "id": 2,
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "LW/RW"
+      }
+    ],
+    "ammo": [
+      {
+        "weapon": "SRM 4",
+        "tics": [
+          1
+        ],
+        "shots": 25,
+        "location": "F"
+      }
+    ],
+    "filename": "IRONBOUND-Sholagar-SL-21.svg"
+  },
+  {
+    "name": "Slayer SL-15",
+    "chassis": "Slayer",
+    "model": "SL-15",
+    "year": 2770,
+    "mass": 80,
+    "thrust": 6,
+    "sinks": 4,
+    "tmm": 3,
+    "armor": [
+      21,
+      13,
+      13,
+      12
+    ],
+    "structure": 3,
+    "dthr": 6,
+    "bomb": 3,
+    "ev": 1288,
+    "cv": 4454053,
+    "upkeep": 1600,
+    "role": "Dogfighter",
+    "mul": "2959",
+    "source": "data/mekfiles/fighters/TRO3039u/Slayer SL-15.blk",
+    "tics": [
+      {
+        "weapon": "Autocannon/10",
+        "mounts": [
+          "N"
+        ],
+        "id": 1,
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "N"
+        ],
+        "id": 2,
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "LW",
+          "LW"
+        ],
+        "id": 3,
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "LW"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "RW",
+          "RW"
+        ],
+        "id": 4,
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "RW"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "A"
+        ],
+        "id": 5,
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "A"
+      }
+    ],
+    "ammo": [
+      {
+        "weapon": "Autocannon/10",
+        "tics": [
+          1
+        ],
+        "shots": 10,
+        "location": "F"
+      },
+      {
+        "weapon": "Autocannon/10",
+        "tics": [
+          1
+        ],
+        "shots": 10,
+        "location": "F"
+      }
+    ],
+    "filename": "IRONBOUND-Slayer-SL-15.svg"
+  },
+  {
+    "name": "Sparrowhawk SPR-H5",
+    "chassis": "Sparrowhawk",
+    "model": "SPR-H5",
+    "year": 2520,
+    "mass": 30,
+    "thrust": 10,
+    "sinks": 2,
+    "tmm": 5,
+    "armor": [
+      10,
+      6,
+      6,
+      9
+    ],
+    "structure": 3,
+    "dthr": 3,
+    "bomb": 1,
+    "ev": 637,
+    "cv": 1740870,
+    "upkeep": 600,
+    "role": "Interceptor",
+    "mul": "2992",
+    "source": "data/mekfiles/fighters/TRO3039u/Sparrowhawk SPR-H5.blk",
+    "tics": [
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "N",
+          "N"
+        ],
+        "id": 1,
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Small Laser",
+        "mounts": [
+          "LW",
+          "RW"
+        ],
+        "id": 2,
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "heat": 0,
+        "range": [
+          0,
+          0,
+          null,
+          null,
+          null
+        ],
+        "loc": "LW/RW"
+      }
+    ],
+    "ammo": [],
+    "filename": "IRONBOUND-Sparrowhawk-SPR-H5.svg"
+  },
+  {
+    "name": "Stingray F-90",
+    "chassis": "Stingray",
+    "model": "F-90",
+    "year": 2762,
+    "mass": 60,
+    "thrust": 6,
+    "sinks": 4,
+    "tmm": 3,
+    "armor": [
+      15,
+      11,
+      11,
+      9
+    ],
+    "structure": 2,
+    "dthr": 5,
+    "bomb": 2,
+    "ev": 1268,
+    "cv": 2979080,
+    "upkeep": 1200,
+    "role": "Dogfighter",
+    "mul": "3069",
+    "source": "data/mekfiles/fighters/TRO3039u/Stingray F-90.blk",
+    "tics": [
+      {
+        "weapon": "PPC",
+        "mounts": [
+          "N"
+        ],
+        "id": 1,
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "heat": 2,
+        "range": [
+          2,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "LW"
+        ],
+        "id": 2,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "LW"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "LW",
+          "RW"
+        ],
+        "id": 3,
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "LW/RW"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "RW"
+        ],
+        "id": 4,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "RW"
+      }
+    ],
+    "ammo": [],
+    "filename": "IRONBOUND-Stingray-F-90.svg"
+  },
+  {
+    "name": "Stuka STU-K5",
+    "chassis": "Stuka",
+    "model": "STU-K5",
+    "year": 2571,
+    "mass": 100,
+    "thrust": 5,
+    "sinks": 6,
+    "tmm": 3,
+    "armor": [
+      21,
+      14,
+      14,
+      12
+    ],
+    "structure": 3,
+    "dthr": 6,
+    "bomb": 3,
+    "ev": 1790,
+    "cv": 6156000,
+    "upkeep": 2000,
+    "role": "Attack Fighter",
+    "mul": "3110",
+    "source": "data/mekfiles/fighters/TRO3039u/Stuka STU-K5.blk",
+    "tics": [
+      {
+        "weapon": "LRM 20",
+        "mounts": [
+          "N"
+        ],
+        "id": 1,
+        "damage": "1+M6 (Max 7)",
+        "base": 1,
+        "max": 7,
+        "heat": 1,
+        "range": [
+          4,
+          2,
+          0,
+          2,
+          4
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "N"
+        ],
+        "id": 2,
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "SRM 4",
+        "mounts": [
+          "N"
+        ],
+        "id": 3,
+        "damage": "1+M2 (Max 3)",
+        "base": 1,
+        "max": 3,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "LW"
+        ],
+        "id": 4,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "LW"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "LW"
+        ],
+        "id": 5,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "LW"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "RW"
+        ],
+        "id": 6,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "RW"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "RW"
+        ],
+        "id": 7,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "RW"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "A",
+          "A"
+        ],
+        "id": 8,
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "A"
+      }
+    ],
+    "ammo": [
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          1
+        ],
+        "shots": 6,
+        "location": "F"
+      },
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          1
+        ],
+        "shots": 6,
+        "location": "F"
+      },
+      {
+        "weapon": "SRM 4",
+        "tics": [
+          3
+        ],
+        "shots": 25,
+        "location": "F"
+      }
+    ],
+    "filename": "IRONBOUND-Stuka-STU-K5.svg"
+  },
+  {
+    "name": "Thunderbird TRB-D36",
+    "chassis": "Thunderbird",
+    "model": "TRB-D36",
+    "year": 2480,
+    "mass": 100,
+    "thrust": 5,
+    "sinks": 5,
+    "tmm": 3,
+    "armor": [
+      20,
+      13,
+      13,
+      10
+    ],
+    "structure": 3,
+    "dthr": 6,
+    "bomb": 3,
+    "ev": 1932,
+    "cv": 6430500,
+    "upkeep": 2000,
+    "role": "Attack Fighter",
+    "mul": "5231",
+    "source": "data/mekfiles/fighters/TRO3075/Thunderbird TRB-D36.blk",
+    "tics": [
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "N"
+        ],
+        "id": 1,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "N"
+        ],
+        "id": 2,
+        "damage": "2",
+        "base": 2,
+        "max": 2,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "N"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "LW"
+        ],
+        "id": 3,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "LW"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "LW",
+          "RW"
+        ],
+        "id": 4,
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "LW/RW"
+      },
+      {
+        "weapon": "LRM 20",
+        "mounts": [
+          "LW",
+          "RW"
+        ],
+        "id": 5,
+        "damage": "2+M12 (Max 14)",
+        "base": 2,
+        "max": 14,
+        "heat": 2,
+        "range": [
+          4,
+          2,
+          0,
+          2,
+          4
+        ],
+        "loc": "LW/RW"
+      },
+      {
+        "weapon": "Large Laser",
+        "mounts": [
+          "RW"
+        ],
+        "id": 6,
+        "damage": "3",
+        "base": 3,
+        "max": 3,
+        "heat": 2,
+        "range": [
+          0,
+          0,
+          2,
+          4,
+          null
+        ],
+        "loc": "RW"
+      },
+      {
+        "weapon": "Medium Laser",
+        "mounts": [
+          "A",
+          "A"
+        ],
+        "id": 7,
+        "damage": "4",
+        "base": 4,
+        "max": 4,
+        "heat": 1,
+        "range": [
+          0,
+          0,
+          2,
+          null,
+          null
+        ],
+        "loc": "A"
+      }
+    ],
+    "ammo": [
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          5
+        ],
+        "shots": 6,
+        "location": "F"
+      },
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          5
+        ],
+        "shots": 6,
+        "location": "F"
+      },
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          5
+        ],
+        "shots": 6,
+        "location": "F"
+      },
+      {
+        "weapon": "LRM 20",
+        "tics": [
+          5
+        ],
+        "shots": 6,
+        "location": "F"
+      }
+    ],
+    "filename": "IRONBOUND-Thunderbird-TRB-D36.svg"
+  }
+]
